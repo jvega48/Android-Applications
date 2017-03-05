@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">"Famous Athlete "</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtIntro">World Famous Athlete</string>
+    <string name="txtDescription">These Dedicated athletes work hard to preform at the best of there abilities. </string>
+
+</resources>
