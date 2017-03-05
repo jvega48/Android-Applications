@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sleep Machine App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtWaveImg"/>
+    <string name="txtFanImg"/>
+    <string name="btnOcean">Play Ocean Waves </string>
+    <string name="btnFan">Play Oscillating Fan</string>
+    <string name="txtMainImg"/>
+    <string name="txtTitle">World Best Sleep Machine</string>
+
+</resources>

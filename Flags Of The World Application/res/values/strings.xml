@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Flags of the World App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtStart">Start Flag Animation</string>
+    <string name="txtStop">Stop Flag Animation</string>
+
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+<ImageView
+    android:id="@+id/imgMain"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:minHeight="170px"
+    android:minWidth="100px" />
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+<Button
+    android:id="@+id/btnStart"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_marginLeft="15dp"
+    android:textSize="12sp" 
+    android:text="@string/txtStart"
+   />
+
+<Button
+    android:id="@+id/btnStop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/btnStart"
+    android:text="@string/txtStop"
+    android:textSize="12sp" />
+
+</RelativeLayout>
+</LinearLayout>

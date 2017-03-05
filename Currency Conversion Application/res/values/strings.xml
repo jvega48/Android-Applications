@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CurrencyConversionApplication</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtUser">Enter the $ U.S Currency to Convert</string>
+    <string name="txtHint">Enter $ U.S Dollars</string>
+    <string name="btnConvert">Converting </string>
+    <string name="conPesos">Convert to Pesos</string>
+    <string name="conEuro">Convert to Euros</string>
+    <string name="conCanada">Convert to Canadian Dollars</string>
+    <string name="txtResult"/>
+
+</resources>

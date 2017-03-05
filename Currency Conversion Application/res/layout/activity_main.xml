@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.currencyconversionapplication.MainActivity" >
+
+    <TextView
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="@string/txtUser"
+        android:textColor="#00FF00"
+        android:textSize="18sp" />
+
+    <RadioButton
+        android:id="@+id/conEuro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/conCanada"
+        android:layout_below="@+id/conCanada"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/conEuro"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/conPesos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/conEuro"
+        android:layout_below="@+id/conEuro"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/conPesos"
+        android:textSize="20sp" />
+
+    <RadioButton
+        android:id="@+id/conCanada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtHint"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/conCanada"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/txtHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtUser"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/txtHint"
+        android:inputType="number" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/conPesos"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="@string/btnConvert"
+        android:textColor="#00FF00"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnConvert"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="@string/txtResult"
+        android:textSize="25sp" />
+
+</RelativeLayout>

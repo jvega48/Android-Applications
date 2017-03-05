@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Piggy Bank Childrens App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtTitle">Piggy Bank Childrens App</string>
+    <string name="txtMoney">Deposit Money</string>
+    <string name="prompt">Select Action</string>
+    <string name="description">Bank Image</string>
+    <string name="btnCalculate">Find The Total</string>
+    <string name="btnContinue">Continue</string>
+    <string-array name="operationGroup">
+        <item >Save</item>
+        <item >Spend</item>
+    </string-array>
+    <string name="txtSecondTitle">Mini Bank</string>
+    <string name="txtCurrency">Choose Money Value </string>
+    <string name="txtAction">Make A Selection</string>
+    <string name="display">Display Image</string>
+
+</resources>

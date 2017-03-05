@@ -1,0 +1,69 @@
+<?xml version= "1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/imagebackground"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgDoggie"
+        android:layout_width="220dp"
+        android:layout_height="685dp"
+        android:contentDescription="@string/txtDoggie"
+        android:src="@drawable/doggie" />
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <View android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:background="#666FFF"
+                android:gravity="center_vertical"
+                android:padding="50dp"
+                android:text="@string/txtTittle"
+                android:textSize="45sp"
+                android:typeface="serif" />
+
+        </TableRow>
+        <TableRow>
+            <View android:layout_height="80dp"/>
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="wrap_content"
+                android:layout_gravity="left"
+                android:padding="25dp"
+                android:text="@string/txtDescription"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+        </TableRow>
+        <TableRow>
+            <View android:layout_height="80dp"/>
+
+            <Button
+                android:id="@+id/btnDate"
+                android:layout_width="100dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="50dp"
+                android:text="@string/btnDate"
+                android:textColor="#FFFFFF"
+                android:textSize="40sp" />
+
+        </TableRow>
+        <TableRow>
+            <View android:layout_height="80dp" />
+
+            <TextView
+                android:id="@+id/txtReservation"
+                android:layout_gravity="center"
+                android:padding="20dp"
+                android:textColor="#FFFFFF"
+                android:textSize="30sp" />
+
+        </TableRow>
+    </TableLayout>
+</LinearLayout>        

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">The Dog Sledding Experience</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtDoggie"/>
+    <string name="txtTittle">The Best Dog Sledding Experience</string>
+    <string name="txtDescription">The world best dog sledding in world where you will enjoy the long lasting trip, for you and your pet dog.</string>
+    <string name="btnDate">Book a Full-Day Trip At Big Bear Mountains</string>
+    <string name="txtReservation"/>
+
+</resources>
